@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 import './App.css';
+import FirstCmp from './FirstCmp';
+import SecondCmp from './SecondCmp';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Hello</h1>
+        <FirstCmp />
+        <SecondCmp />
       </div>
     );
   }
